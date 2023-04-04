@@ -1,16 +1,27 @@
 .App {
+  min-height: 100vh;
+  background-color: #282c34;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.carousel-wrapper {
+  display: grid;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.v-carousel {
+  transform: rotate(90deg);
+}
+.v-carousel, .h-carousel {
+  margin-top: 100px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.v-caption {
+  transform: rotate(-90deg);
+}
+.v-caption, .h-caption {
+  position: absolute;
 }
 
 .App-header {
@@ -28,11 +39,3 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
