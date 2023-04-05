@@ -6,8 +6,29 @@
   color: #141414;
 }
 
+a:hover {
+  color: #f1b8a8;
+}
+
+.head {
+  background-color: #f5f5f5
+}
+
+h2, h3 {
+  margin-left: 5px;
+}
+
+.projects-col-right {
+  padding-left: 0.5cm;
+  padding-right: 5cm;
+}
+.projects-col-left {
+  margin-top: 100px;
+  padding-right: 0.5cm;
+  padding-left: 5cm;
+}
+
 .page-title-outer {
-  margin-left: 0px;
   margin-right: auto;
   width: min-content;
 }
@@ -17,24 +38,30 @@
 
 .carousel-wrapper {
   display: grid;
+  margin-top: 100px;
+  margin-bottom: 200px;
 }
 
 .v-carousel {
   transform: rotate(90deg);
 }
 .v-carousel, .h-carousel {
-  margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
   grid-row: 1;
   grid-column: 1;
-  width: 600px;
+  width: 800px;
 }
 
 .v-title {
   max-width: 150px;
-  margin-left: 20vw;
+  margin-left: 5cm;
   text-align: left;
+}
+.h-title {
+  max-width: 150px;
+  margin-left: 7cm;
+  text-align: right;
 }
 
 .v-caption {
@@ -43,6 +70,19 @@
 .v-caption, .h-caption {
   position: absolute;
   z-index: 100;
+}
+
+.projects-image {
+  width: inherit;
+  background-color: white;
+}
+.projects-title {
+  text-align: left;
+}
+
+.image-description {
+  text-align: left;
+  margin-bottom: 150px;
 }
 
 .App-header {

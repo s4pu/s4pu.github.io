@@ -4,40 +4,11 @@ import {
   CCarouselItem,
   CImage,
 } from "@coreui/react";
-import { useEffect, useState } from "react";
 import { horizontalData, verticalData } from "../content/visualsData";
 
 export default function Visual() {
-  const [current, setCurrent] = useState(0);
-  const [text, setText] = useState("");
-  const [image, setImage] = useState();
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrent((prevState) =>
-        prevState < horizontalData.length - 1 ? prevState + 1 : 0
-      );
-    }, 1000);
-
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
-
-  useEffect(() => {
-    setText(horizontalData[current].text);
-    setImage(horizontalData[current].image);
-  }, [current]);
-  // hier noch nen Titel
-  // mit Animation versehen
-  // überlagern
   return (
     <div className="carousel-wrapper">
-      {/* <h3>
-        Visualtext: {current}
-        {text}
-      </h3>
-      <img src={image} alt="Leo" /> */}
       <CCarousel
         className="h-carousel"
         controls
@@ -52,7 +23,7 @@ export default function Visual() {
             <CCarouselItem key={datum.text}>
               <CImage className="d-block w-100" src={datum.image} />
               <CCarouselCaption className="h-caption">
-                <h5>{datum.title}</h5>
+                <h5 className="h-title">{datum.title}</h5>
                 <p>{datum.text}</p>
               </CCarouselCaption>
             </CCarouselItem>
