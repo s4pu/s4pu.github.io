@@ -23,9 +23,9 @@ function App() {
         <Visual />
         <h3 className="projects-title">
           <b>PROJECTS</b>
-        </h3>
+        </h3>{" "}
         <Row>
-          <Col md className="projects-col-left projects-col">
+          <Col xs={6} md className="projects-col-left projects-col">
             {projectsData.map((datum, id) => {
               if (id % 2 === 0) {
                 return (
@@ -41,7 +41,7 @@ function App() {
               }
             })}
           </Col>
-          <Col md className="projects-col-right">
+          <Col xs={6} md className="projects-col-right">
             {projectsData.map((datum, id) => {
               if (id % 2 === 1) {
                 return (
