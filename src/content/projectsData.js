@@ -1,6 +1,7 @@
 import smp from "../images/smp.png";
 import rnr from "../images/rnr.png";
 import gti from "../images/gti.jpg";
+import sugar from "../images/sugarlogo.png";
 import at from "../images/dt-at.png";
 import bt from "../images/dt-bt.jpg";
 import band from "../images/band1.jpg";
@@ -25,6 +26,12 @@ export const projectsData = [
     title: "Global Team-Based Innovation",
     text: "9-month project in an international, interdisciplinary team. Solving a complex challenge from our project partner Rohde & Schwarz using Design Thinking. Solution is still used in the company.",
     link: "https://hpi.de/plattner/teaching/archive/global-team-based-innovation-gti.html",
+  },
+  {
+    image: sugar,
+    title: "SUGAR Network",
+    text: "Development and deployment of the SUGAR homepage. Technical supervision at digital events.",
+    link: "https://sugar-network.org/",
   },
   {
     image: at,

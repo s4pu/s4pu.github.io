@@ -14,8 +14,7 @@ export default function Visual() {
         controls
         indicators
         dark
-        interval={false}
-        // interval={1000}
+        interval={10000}
         pause={false}
       >
         {horizontalData.map((datum) => {
@@ -35,17 +34,16 @@ export default function Visual() {
         controls
         indicators
         dark
-        interval={false}
-        // interval={1000}
+        interval={10000}
         pause={false}
       >
         {verticalData.map((datum) => {
           return (
             <CCarouselItem key={datum.text}>
-              <CImage className="d-block w-100" src={datum.image} />
+              <CImage className="d-block w-100 v-image" src={datum.image} />
               <CCarouselCaption className="v-caption">
                 <h5 className="v-title">{datum.title}</h5>
-                <p>{datum.text}</p>
+                <p className="v-text">{datum.text}</p>
               </CCarouselCaption>
             </CCarouselItem>
           );

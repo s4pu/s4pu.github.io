@@ -21,9 +21,10 @@ function App() {
           </Navbar.Brand>
         </Navbar>
         <Visual />
-        <h3 className="projects-title">
+
+        <h3 className="section-title">
           <b>PROJECTS</b>
-        </h3>{" "}
+        </h3>
         <Row>
           <Col xs={6} md className="projects-col-left projects-col">
             {projectsData.map((datum, id) => {

@@ -64,21 +64,54 @@ h2, h3 {
 
 .v-title {
   max-width: 150px;
-  margin-left: 5cm;
+  left: 3cm;
+  top: 2cm;
+  position: relative;
   text-align: left;
 }
 .h-title {
   max-width: 150px;
-  margin-left: 7cm;
+  left: 5cm;
+  position: relative;
   text-align: right;
 }
 
 .v-caption {
   transform: rotate(-90deg);
 }
+.v-text {
+  left: 2cm;
+  top: 2cm;
+  position: relative;
+  text-align: left;
+}
+.h-caption {
+  text-align: right;
+  left: 7cm;
+}
 .v-caption, .h-caption {
+  max-width: 10cm;
   position: absolute;
   z-index: 100;
+}
+.v-caption, .h-caption {
+  text-shadow: 1px 1px 5px #f5f5f5, 
+               1px 1px 1px #f5f5f5, 
+               1px 1px 2px #f5f5f5, 
+               0px 0px 2px #f5f5f5,
+               0px 0px 3px #f5f5f5,
+               0px 0px 4px #f5f5f5,
+               0px 0px 5px #f5f5f5,
+               0px 0px 6px #f5f5f5,
+               0px 0px 7px #f5f5f5;
+}
+
+.v-image {
+  transform: rotate(-90deg);
+}
+
+.project-group {
+  height: 15cm;
 }
 
 .image-container {
@@ -106,7 +139,7 @@ h2, h3 {
   z-index: 100;
   align-self: flex-start;  
 }
-.projects-title {
+.section-title {
   text-align: left;
 }
 

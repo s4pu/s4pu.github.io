@@ -2,7 +2,7 @@ import { Col } from "react-bootstrap";
 
 export default function Project({ title, text, image, link }) {
   return (
-    <Col key={title}>
+    <Col className="project-group" key={title}>
       <p className="image-description">
         <a href={link}>
           <div className="image-container">
