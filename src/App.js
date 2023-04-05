@@ -44,14 +44,14 @@ function App() {
         <div className="motivation-text">
           <p>Hey there, dear denkwerk talent aquisition team!</p>
           <p>
-            I'm Leo and while I know that this page looks crappy. I'm not a
-            graphics designer, but I felt challenged to do something else than a
-            typical cover letter and hacked *something* together.
+            I'm Leo and I know that this page looks a bit crappy. I'm not a
+            graphics designer, but I felt challenged to do something else other
+            than a typical cover letter and hacked *something* together.
           </p>
           <p>
-            I am a recent graduate, but already bring experience from different
-            projects. I think your work at denkwerk is highly valuable and
-            sounds super interesting.
+            I am a recent master's graduate, but already bring experience from
+            different projects. I think your work at denkwerk is highly valuable
+            and sounds super interesting.
           </p>
           <p>
             Anyways, I think I have what you are looking for and I would be

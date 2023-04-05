@@ -1,4 +1,3 @@
-import logo from "../logo.svg";
 import ba from "../images/vis-ba.png";
 import bonsai from "../images/vis-bonsai.png";
 import curious from "../images/vis-curious.png";
