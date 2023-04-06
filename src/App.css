@@ -158,11 +158,11 @@ h2, h3 {
 }
 
 .motivation-text {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.2cm;
-  text-align: left;
-  margin-left: 7cm;
-  margin-right: 7cm;
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-bottom: 5cm;
   margin-top: 2cm;
 }

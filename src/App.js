@@ -50,11 +50,15 @@ function App() {
           </p>
           <p>
             I am a recent master's graduate, but already bring experience from
-            different projects. I think your work at denkwerk is highly valuable
-            and sounds super interesting.
+            different projects. I aim to work in interdisciplinary teams because
+            I have already been able to appreciate their advantages in the
+            Design Thinking projects of the HPI School of Design Thinking
+            (D-School) and the Global Team-Based Innovation course. There, we
+            have explored complex problems in international and
+            interdisciplinary teams to find innovative solutions.
           </p>
           <p>
-            Anyways, I think I have what you are looking for and I would be
+            Anyways, I think I have what you are looking for and would be
             excited if we could talk in person!
           </p>
           <p>Best, Leo</p>
